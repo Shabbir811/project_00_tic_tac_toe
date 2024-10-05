@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 67rem;
+    background-color: #333232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    color: #fff;
+    line-height: 8rem;
+    font-size: 6em;
+}
+.gamebox{
+    height: 50rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 5rem;
+    border: none;
+
+}
+.hide-game-box{
+    display: none;
+}
+.boxes{
+    width: 32%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(22, 4, 4);
+    font-size: 5em;
+    font-weight: 900;
+
+}
+
+.trunX{
+    color: #0461d3;
+
+}
+.trun0{
+    color: #c42e00;
+}
+
+.new-game{
+    background-color: #0461d3;
+    height: 3.5em;
+    width: 10em;
+    border: none;
+    border-radius: 1rem;
+     box-shadow: 6px 4px 15px 3px rgba(8, 8, 8, 0.4);
+     padding: 1px;
+     color: #fff;
+}
+
+.winnerdiv{
+    height: 85vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    gap: 60px;
+    background-color: #141313;
+    border-radius: 12px;
+
+}
+
+
+.box1{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right:none;
+    
+    
+}
+
+.box2{
+    border-top: none;
+    border-bottom: none;
+    border-right:none;
+
+
+}
+.box3{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+.box7{
+    border-bottom: none;
+    border-left: none;
+    border-right:none;
+
+}
+.box8{
+    border-bottom: none;
+    border-right:none;
+
+}
+.box4{
+    border-left: none;
+    border-bottom: none;
+    border-right:none;
+
+
+}
+.box5{
+    border-bottom: none;
+    border-right:none;
+
+
+}
+.box6{
+    border-right: none;
+    border-bottom: none;
+
+}
+
+.box9{
+    border-bottom: none;
+    border-right: none;
+}
+
+
+/* reset btn style */
+
+#reset{
+    background-color: #0461d3;
+    height: 3.5em;
+    width: 10em;
+    border: none;
+    border-radius: 1rem;
+     box-shadow: 6px 4px 15px 3px rgba(8, 8, 8, 0.4);
+     padding: 1px;
+     color: #fff;
+}
+
+.dbox{
+    pointer-events: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 4rem;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    h1{
+        font-size: 3.3rem;
+    }
+    
+}
